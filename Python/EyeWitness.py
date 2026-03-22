@@ -513,7 +513,7 @@ if __name__ == "__main__":
         print('Loaded Resume Data with the following options:')
         engines = []
         if cli_parsed.web:
-            engines.append('Firefox')
+            engines.append('Chromium')
         print('')
         print('Input File: {0}'.format(cli_parsed.f))
         print('Engine(s): {0}'.format(','.join(engines)))
